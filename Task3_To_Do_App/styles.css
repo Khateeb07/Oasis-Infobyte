@@ -1,0 +1,108 @@
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    background: url(images/background.jpg) top/cover no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f0ea;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0);
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.container::-webkit-scrollbar {
+    width: 15px;
+    height: 5px;
+    background-color: #bdbdbd;
+}
+
+.container::-webkit-scrollbar-thumb {
+    /* width: 10px; */
+    /* margin: 3px 1px; */
+    background: #d8d8d8;
+    border-radius: 15px; 
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.inputArea {
+    width: 580px;
+    height: 50px;
+    margin: auto;
+    background: #d9d8d5;
+    border-radius: 30px;
+    
+}
+
+input[type="text"] {
+    font-family: "Montserrat", sans-serif;
+    width: 65%;
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 6px 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #96B6C5;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;   
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #83a8ba;
+}
+
+#addTaskBtn {
+    border-radius: 32px;
+    width: 150px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    /* margin: 10px 0; */
+    padding: 5px 0px;
+    line-height: 40px;
+    /* background-color: #edeef0;
+    border-radius: 4px; */
+}
+
+.complete-btn {
+    margin: 2px 0px;
+    padding: 8px 0px;
+    font-size: 14px;
+}
+
+.completed {
+    /* background-color: #d4edda; */
+    text-decoration: line-through;
+}
+
+.list {
+    width: 500px;
+    margin: auto;
+}
