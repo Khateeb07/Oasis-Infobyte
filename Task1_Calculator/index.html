@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+                rel="stylesheet" />
+</head>
+
+<body>
+        <div class="container">
+                <h1>Calculator</h1>
+                <div class="calci">
+                        <input type="text" name="" id="val-input" disabled />
+                        <div class="calci-btns">
+                                <button class="items" onclick="clearDisplay()">AC</button>
+                                <button class="items" onclick="addToDisplay('%')">
+                                        <img src="images/percentage.png" alt="percentage" id="percentage" />
+                                </button>
+                                <button class="items" onclick="backspace()">
+                                        <img src="images/backspace.png" alt="backspace" id="backspace" />
+                                </button>
+                                <button class="items" onclick="addToDisplay('÷')">
+                                        <img src="images/divide.png" alt="divide" />
+                                </button>
+                                <button class="items" onclick="addToDisplay('7')">7</button>
+                                <button class="items" onclick="addToDisplay('8')">8</button>
+                                <button class="items" onclick="addToDisplay('9')">9</button>
+                                <button class="items" onclick="addToDisplay('x')">
+                                        <img src="images/multiply.png" alt="multiply" />
+                                </button>
+                                <button class="items" onclick="addToDisplay('4')">4</button>
+                                <button class="items" onclick="addToDisplay('5')">5</button>
+                                <button class="items" onclick="addToDisplay('6')">6</button>
+                                <button class="items" onclick="addToDisplay('-')">
+                                        <img src="images/minus.png" alt="Subtract" id="minus" />
+                                </button>
+                                <button class="items" onclick="addToDisplay('1')">1</button>
+                                <button class="items" onclick="addToDisplay('2')">2</button>
+                                <button class="items" onclick="addToDisplay('3')">3</button>
+                                <button class="items" onclick="addToDisplay('+')">
+                                        <img src="images/plus.png" alt="Add" class="plus-equal" />
+                                </button>
+                                <button class="items" onclick="addToDisplay('00')">00</button>
+                                <button class="items" onclick="addToDisplay('0')">0</button>
+                                <button class="items" onclick="addToDisplay('.')">.</button>
+                                <button class="items" onclick="calculate()">
+                                        <img src="images/equal.png" alt="equals" class="plus-equal" />
+                                </button>
+                        </div>
+                </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
